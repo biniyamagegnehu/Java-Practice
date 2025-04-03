@@ -14,5 +14,6 @@ public class Characterchecker {
         } else {
             System.out.println(letter + " is neither");
         }
+        
 }
 }
