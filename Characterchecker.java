@@ -6,12 +6,13 @@ public class Characterchecker {
 
         System.out.print("Enter a character : ");
         char letter = x.next().charAt(0);
-        if (Character.isUpperCase(letter)) {
+
+        if (letter >= 'A' && letter <= 'Z') {
             System.out.println(letter + " is uppercase");
-        } else if (Character.isLowerCase(letter)) {
+        } else if (letter >= 'a' && letter <= 'z') {
             System.out.println(letter + " is lowercase");
         } else {
-            System.out.println("neither");
+            System.out.println(letter + " is neither");
         }
-    }
+}
 }
