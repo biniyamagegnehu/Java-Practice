@@ -1,11 +1,10 @@
 import java.util.Scanner;;
 
 class Dog {
-    String name,color;
-    
-    Dog (String n,String c) {
-        name = n;
-        color = c;
+  
+  Dog (String name,String color) {
+        System.out.println("The name is " + name);
+        System.out.println("the color is " + color);
     }
 }
 
@@ -20,7 +19,5 @@ public class ParametrizedConstructor {
 
         Dog dog = new Dog(name,color);
 
-        System.out.println("The name is " + dog.name);
-        System.out.println("the color is " + dog.color);
     }
 }
